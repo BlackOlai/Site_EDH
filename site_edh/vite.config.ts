@@ -13,7 +13,7 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src')
     }
   },
-  base: '/site_edh/',
+  base: '/Site_EDH/',  // Alterado para corresponder ao nome exato do repositório
   build: {
     outDir: 'docs',
     assetsDir: 'assets',
